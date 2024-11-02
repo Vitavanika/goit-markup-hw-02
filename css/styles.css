@@ -96,8 +96,16 @@ h3 {
 .hero-button {
     background: #4D5AE5;
     color: #FFFFFF;
+    font-weight: 500;
     font-family: inherit;
+    line-height: 1.5;
+    letter-spacing: 0.04em;
     cursor: pointer;
+}
+
+.hero-button:hover,
+.hero-button:focus {
+    background-color: #404BBF;
 }
 
 /* #endregion hero */
@@ -132,7 +140,9 @@ h3 {
 /* #endregion features */
 
 /* #region team */
-.team {}
+.team {
+    background: #F4F4FD
+}
 
 .team-title {
     font-size: 36px;
@@ -145,9 +155,7 @@ h3 {
 
 }
 
-.team-list {
-    background: #F4F4FD
-}
+.team-list {}
 
 .team-item {
     background: #FFFFFF;
@@ -194,7 +202,7 @@ h3 {
     color: #2E2F42;
     font-size: 20px;
     font-weight: 500;
-    line-height: 1.5;
+    line-height: 1.2;
     letter-spacing: 0.02em;
     text-align: left;
 }
